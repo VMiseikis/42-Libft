@@ -6,7 +6,7 @@
 #    By: vmiseiki <vmiseiki@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/07/13 16:40:53 by vmiseiki          #+#    #+#              #
-#    Updated: 2021/07/20 18:18:17 by vmiseiki         ###   ########.fr        #
+#    Updated: 2023/02/01 21:08:37 by vmiseiki         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -63,11 +63,11 @@ ft_lstclear.c\
 ft_lstiter.c\
 ft_lstmap.c
 
-OBJ = $(SRC:.c=.o)
 
-BONUS_OBJ = $(BONUS_SRC:.c=.o)
+OBJ = $(addprefix src/, $(SRC:.c=.o))
+BONUS_OBJ = $(addprefix src/, $(BONUS_SRC:.c=.o))
 
-all: $(NAME) bonus
+all: $(NAME) bonus clean
 
 $(NAME): $(OBJ)
 	ar cr $(NAME) $(OBJ)
@@ -76,9 +76,9 @@ bonus: $(BONUS_OBJ)
 	ar cr $(NAME) $(BONUS_OBJ)
 	
 clean:
-	/bin/rm -f *.o
+	rm -f $(OBJ) $(BONUS_OBJ)
 
 fclean: clean
-	/bin/rm -f $(NAME)
+	rm -f $(NAME) $(OBJ) $(BONUS_OBJ)
 
 re: fclean all
