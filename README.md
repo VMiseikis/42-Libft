@@ -1,5 +1,6 @@
 # Libft
 **What is Libft?**
+
 This is a project about understanding how functions of the standart C library work, re-code them and create your own library, which will be used in the future 42 projects.
 
 **Requirements:**
@@ -9,7 +10,7 @@ This is a project about understanding how functions of the standart C library wo
 - Everything must compile with the flags -std=c98 -Wall -Wextra -Werror
 - Code must comply with the norminette rules
 
-**Project related documents:** </br>
+**Project related documents:**
 - [Subject pdf](https://github.com/VMiseikis/42-Course/blob/master/Subject%20PDFs/libft.en.subject.pdf) </br>
 - [Normintte rules](https://github.com/VMiseikis/42-Course/blob/master/Norminette/en.norm.pdf)
 
