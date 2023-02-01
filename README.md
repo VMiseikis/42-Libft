@@ -1,7 +1,7 @@
 # Libft
 **What is Libft?**
 
-This is a project about understanding how functions of the standard C library work, re-code them and create your own library, which will be used in the future 42 projects.
+This project is about understanding how functions of the standard C library work, re-code them and create your own library, which will be used in the future 42 projects.
 
 **Requirements:**
 - All functions must have the same prototypes and behave like original ones
