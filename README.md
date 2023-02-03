@@ -40,5 +40,5 @@ Include created library archive `libft.a` in to a project:
 
 ## Grading:
 <div align="center">
-<img width="150" alt="" src="https://github.com/VMiseikis/42-Course/blob/master/Images/Score%20125:100.png">
+<img width="150" alt="" src="https://github.com/VMiseikis/42-Course/blob/master/Images/score_125_100.jpg">
 </div>
