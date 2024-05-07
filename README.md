@@ -11,7 +11,7 @@ This project is about understanding how functions of the standard C library work
 - Code must comply with the norminette rules
 
 **Project related documents:**
-- [Subject pdf](https://github.com/VMiseikis/42-Course/blob/master/Subject%20PDFs/libft.en.subject.pdf) </br>
+- [Subject pdf](https://github.com/VMiseikis/42-Course/blob/master/Subject%20PDFs/libft.en.subject.pdf) - function descriptions and prototypes. General requirements.</br>
 - [Normintte rules](https://github.com/VMiseikis/42-Course/blob/master/Norminette/en.norm.pdf)
 
 ## Usage
