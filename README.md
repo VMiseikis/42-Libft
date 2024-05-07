@@ -1,7 +1,7 @@
 # Libft
 **What is Libft?**
 
-This project is about understanding how functions of the standard C library work, re-code them and create your own library, which will be used in the future 42 projects.
+This project is about understanding how functions of the standard C library work, re-code them and create my own library, which will be used in the future projects.
 
 **Requirements:**
 - All functions must have the same prototypes and behave like original ones
@@ -38,7 +38,5 @@ Include created library archive `libft.a` in to a project:
 `ft_strchr` `ft_strdup` `ft_striteri` `ft_strjoin` `ft_strlcat` `ft_strlcpy` `ft_strlen` `ft_strmapi` `ft_strncmp` `ft_strnstr`
 `ft_strrchr` `ft_strtrim` `ft_substr` `ft_tolower` `ft_toupper`
 
-## Grading:
-<div align="center">
-<img width="150" alt="" src="https://github.com/VMiseikis/42-Course/blob/master/Images/score_125_100.jpg">
-</div>
+## Recources
+[Linux man pages](https://linux.die.net/man/)
