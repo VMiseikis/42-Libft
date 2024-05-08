@@ -12,13 +12,13 @@
 # **************************************************************************** #
 
 NAME = libft.a
-HEADER = libft.h
+HEADER = includes
 
 OBJ_DIR	=	obj/
 SRC_DIR = src/
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -c -I includes
+CFLAGS = -Wall -Wextra -Werror -c -I $(HEADER)
 
 AR = ar -crs
 RM = rm -f 
