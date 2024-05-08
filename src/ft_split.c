@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
 
 static size_t	ft_count_mem_for_arr(char const *s, char c)
 {
