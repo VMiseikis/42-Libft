@@ -23,7 +23,7 @@ git clone https://github.com/VMiseikis/Libft.git && cd Libft
 
 Create library archive:
 ```
-make all
+make
 ```
 
 ## Implemented functions:
