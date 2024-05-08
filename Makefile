@@ -34,7 +34,7 @@ BONUS_SRC = ft_lstnew.c		ft_lstadd_front.c	ft_lstsize.c ft_lstlast.c	 ft_lstadd_
 OBJ = $(addprefix src/, $(SRC:.c=.o))
 BONUS_OBJ = $(addprefix src/, $(BONUS_SRC:.c=.o))
 
-all: $(NAME) bonus
+all: $(NAME)
 
 $(NAME): $(OBJ)
 	@$(AR) $(NAME) $(OBJ)
@@ -43,6 +43,7 @@ $(NAME): $(OBJ)
 
 bonus: $(BONUS_OBJ)
 	@$(AR) $(NAME) $(BONUS_OBJ)
+	@echo "Libft Bonus compiled!"
 
 %.o: %.c
 	@echo "Compiling: $< "
