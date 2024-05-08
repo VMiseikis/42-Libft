@@ -23,12 +23,7 @@ git clone https://github.com/VMiseikis/Libft.git && cd Libft
 
 Create library archive:
 ```
-make
-```
-
-Include created library archive `libft.a` in to a project:
-```
-#include <libft.h>
+make all
 ```
 
 ## Implemented functions:
@@ -39,4 +34,10 @@ Include created library archive `libft.a` in to a project:
 `ft_strrchr` `ft_strtrim` `ft_substr` `ft_tolower` `ft_toupper`
 
 ## Recources
-[Linux man pages](https://linux.die.net/man/)
+- [Linux man pages](https://linux.die.net/man/)
+
+## TESTERS
+Tester used to check the project.
+- [Libft unit tester](https://github.com/alelievr/libft-unit-test)
+- [Libft war machine tester](https://github.com/ska42/libft-war-machine)
+
