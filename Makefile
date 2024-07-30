@@ -45,7 +45,7 @@ $(NAME): $(OBJ_DIR) $(OBJ)
 	@ranlib $(NAME)
 	@echo "Libft compiled!"
 
-bonus: $(BONUS_OBJ)
+bonus: all $(BONUS_OBJ)
 	@$(AR) $(NAME) $(BONUS_OBJ)
 	@echo "Libft Bonus compiled!"
 
